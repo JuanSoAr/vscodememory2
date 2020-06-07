@@ -1,6 +1,8 @@
 import * as path from 'path';
 
 import { runTests } from 'vscode-test';
+import { systemDefaultPlatform } from 'vscode-test/out/util';
+import { OutgoingMessage } from 'http';
 
 async function main() {
 	try {
@@ -20,4 +22,4 @@ async function main() {
 	}
 }
 
-main();
+main()
